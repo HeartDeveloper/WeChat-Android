@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.com.example.zhang.activity.MainActivity"
+    android:background="@color/colorWhite">
+    <include layout ="@layout/title"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal"
+      />
+    <include layout ="@layout/state" />
+</LinearLayout>
